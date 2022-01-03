@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #D6E5FA;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Licorice";
+  font-size: 5.625em;
+  color: #66BFBF;
+  line-height: 200%;
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-size: 25px;
+  color: #11999E;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  width: 5%;
+  padding-bottom: 2em;
+}
+
+a {
+  color: #11999E;
+}
+
+
+
+.top-container {
+  position: relative;
+}
+
+.middle-container{
+  background-color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.bottom-container{
+  padding-top: 2em;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 2em;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top: 300px;
+
+}
+
+.flaticon{
+  font-size: 7px;
+
+}
+
+.skill-img{
+  width: 0.25;
+  height: 150px;
+  float: left;
+  padding-right: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.skills-text{
+  padding-bottom: 3em;
+}
+
+.mountain{
+  position: relative;
+  margin-bottom: 0;
+}
