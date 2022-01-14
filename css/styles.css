@@ -1,8 +1,25 @@
+/* html elements */
+
 body {
   margin: 0;
   text-align: center;
   background-color: #D6E5FA;
 }
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  width: 5%;
+  padding-bottom: 2em;
+}
+
+/* header elements */
 
 h1 {
   margin-top: 50px;
@@ -27,55 +44,64 @@ h3 {
   color: #11999E;
 }
 
-hr {
-  border-color: #EAF6F6;
-  border-style: none;
-  border-top: dotted;
-  border-width: 5px;
-  width: 5%;
-  padding-bottom: 2em;
-}
+/* containers */
 
-a {
-  color: #11999E;
-}
-
-
+/* top container */
 
 .top-container {
   position: relative;
 }
 
-.middle-container{
-  background-color: white;
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-.bottom-container{
-  padding-top: 2em;
-}
-
-
-.skill-row{
-  width: 50%;
-  margin: auto;
-  text-align: left;
-  line-height: 2;
-  padding-bottom: 2em;
-}
 
 .top-cloud{
   position: absolute;
-  right: 300px;
+  right: 22%;
   top: 50px;
 
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 22%;
   top: 300px;
+
+}
+
+.mountain{
+  position: relative;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1101px){
+  .top-cloud, .bottom-cloud{
+    width: 6rem;
+    height: 3rem;
+
+  }
+}
+
+@media (max-width: 1101px){
+  .top-cloud{
+    width: 5rem;
+    height: 2.5rem;
+    top: 5px;
+  }
+}
+
+@media (max-width: 1101px){
+  .bottom-cloud{
+    width: 6rem;
+    height: 3rem;
+    top: 170px;
+  }
+}
+
+/* middle container */
+
+.middle-container{
+  background-color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
 
 }
 
@@ -89,6 +115,30 @@ a {
   height: 150px;
   float: left;
   padding-right: 30px;
+}
+
+.skills-text{
+  padding-bottom: 3em;
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 2em;
+}
+
+/* bottom container */
+
+.bottom-container{
+  padding-top: 2em;
+}
+
+@media(max-width:1101px){
+  .bottom-p{
+  font-size: 1rem;
+  }
 }
 
 .btn {
@@ -116,13 +166,4 @@ a {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
-}
-
-.skills-text{
-  padding-bottom: 3em;
-}
-
-.mountain{
-  position: relative;
-  margin-bottom: 0;
 }
